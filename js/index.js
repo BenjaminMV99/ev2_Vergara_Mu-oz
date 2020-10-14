@@ -1,16 +1,24 @@
 
-import login from "./modules/login.js";
+import registrar from "./modules/registrar.js";
+import basket from "./modules/basket.js";
 
 var caja = document.getElementById("caja");
 
 
-window.cargar = login.registrar;
-window.agregar = login.agregar.bind(demo4);
+window.cargar = registrar.registrar;
+window.agregar = registrar.agregar.bind(registrar);
 
 
-document.getElementById("demo4").addEventListener("click", () => {
-  caja.innerHTML = login.data;
-  login.registrar();
+document.getElementById("registrar").addEventListener("click", () => {
+  caja.innerHTML = registrar.data;
+  registrar.registrar();
 });
 
+
+
+window.sumar = basket.sumar.bind(sumar);
+
+document.getElementById("basket").addEventListener("click", () => {
+  caja.innerHTML = basket.data;
+});
 

@@ -1,1 +1,22 @@
+.pr{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
+.pr h1{
+    justify-content: center;
+}
+
+.marcador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+}
+
+
+.equipos button{
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px 15px gray;
+    
+}

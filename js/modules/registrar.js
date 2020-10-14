@@ -65,7 +65,7 @@ agregar: function() {
     var nombre = document.getElementById("txt").value;
     var puntaje = document.getElementById("ptn").value;
     
-    if ()
+
 
  if (nombre.value != "" || puntaje.value != ""){
     var obj ={

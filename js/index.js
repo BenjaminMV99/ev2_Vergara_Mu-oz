@@ -16,8 +16,6 @@ document.getElementById("registrar").addEventListener("click", () => {
 
 
 
-window.sumar = basket.sumar.bind(sumar);
-
 document.getElementById("basket").addEventListener("click", () => {
   caja.innerHTML = basket.data;
 });
